@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "fastlane"
-gem 'octokit'
+gem "fastlane", ">= 2.155.3"
+gem 'octokit', '>= 4.18.0'
 gem 'netrc'
 gem 'jazzy', '0.13.1'
 gem 'cocoapods'
