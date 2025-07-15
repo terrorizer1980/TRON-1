@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "fastlane"
-gem 'octokit'
+gem "fastlane", ">= 2.156.0"
+gem 'octokit', '>= 4.19.0'
 gem 'netrc'
-gem 'jazzy', '0.13.1'
-gem 'cocoapods'
+gem 'jazzy', '0.13.2'
+gem 'cocoapods', '>= 1.11.0'
 gem 'mime-types'
 gem 'cocoapods-trunk'
 
